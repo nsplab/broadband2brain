@@ -1,0 +1,197 @@
+@Article {
+  SK2011,
+  title   = {How advances in neural recording affect data analysis},
+  author  = {Ian H. Stevenson and Konrad P. Kording},
+  journal = {Nature Neuroscience},
+  volume  = {14},
+  month   = {February},
+  year    = {2011},
+  pages   = {139-142}
+}
+@Comment {
+  Number of simultaneously recorded neurons doubles about every 7 years
+  Two main approaches to modelling multi-electrode data:
+    - Mapping tuning properties to describe how neurons relate to stimuli or movement
+    - Mapping interactions between neurons
+}
+
+
+@Article {
+  YBM2012,
+  title   = {A Compressed Sensing Parameter Extraction Platform for Radar Pulse Signal Acquisition},
+  author  = {Juhwan Yoo and Christopher K. Turnes and Eric B. Nakamura and Chi K. Le and Stephen Becker and Emilio A. Sovero and Michael B. Wakin and Michael C. Grant and Justin K. Romberg and Azita Emami-Neyestanak and Emmanuel J. Cand\`{e}s},
+  journal = {IEEE Journal on Emerging and Selected Topics in Circuits and Systems (JETCAS)},
+  volume  = {2},
+  number  = {3},
+  month   = {September},
+  year    = {2012},
+  pages   = {516-529}
+}
+@Comment {
+  Complete (hardware/sofware) sub-Nyquist rate (x 13) wideband signal
+    acquisition chain
+  Compressed Sensing
+  Analog pre-processing before using ADC to allow sub-Nyquist sampling
+  CS theory states that signals with high overall bandwidth but comparatively
+    low information level can be acquired very efficiently using randomized measurement protocols
+}
+
+
+@Article {
+  CCS2012,
+  title   = {Energy-Aware Design of Compressed Sensing Systems for Wireless Sensors under Performance and Reliability Constraints},
+  author  = {Fred Chen and Anantha P. Chandrakasan and Vladimir M. Stojanovi\'{c}},
+  journal = {IEEE Transactions on Circuits and Systems I},
+  volume  = {60},
+  number  = {3},
+  month   = {March},
+  year    = {2013},
+  pages   = {650-661}
+}
+@Comment {
+  Energy density of modern portable batteries: 1 W-hr/cc
+  10 uW of average power per cc for 10 year device lifespan
+  Energu costs and power consumption for typical circuits in bio-sensor applications:
+    - AFE: 7.6 uW (NEF = 3)
+    - ADC: 2 uW (100 fJ/conv. step
+    - DSP: 2 uW (1 mW/Gop)
+    - TX: 30 uW (3 nJ/bit)
+}
+
+
+@inproceedings {
+  CUS2012,
+  title     = {Spike sorting at sub-Nyquist rates},
+  author    = {Jose Caballero and Jose Antonio Urig\"{u}en and Simon R. Schultz and Pier Luigi Dragotti},
+  booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  month     = {March},
+  year      = {2012},
+  pages     = {585-588}
+}
+@Comment {
+  Spikes typically contain frequencies up to 8KHz
+    -> sampling rates of at least 16KHz are normally required
+  Algorithm capable of sampling and reconstructing neural data at sub-Nyquist rates
+    while preserving enough features of the original signal so that spike sorting is performed equally reliably
+  Sort of allows shape to be identified even with FRI
+}
+
+
+@Article {
+  CRT2006,
+  title   = {Robust uncertainty principles: exact signal reconstruction from highly incomplete frequency information},
+  author  = {Emmanuel Cand\`{e}s and Justin Romberg and Terence Tao},
+  journal = {IEEE Transactions on Information Theory},
+  volume  = {52},
+  issue   = {2},
+  month   = {February},
+  year    = {2006},
+  pages   = {489-509}
+}
+@Comment {
+  First (?) Compressive Sensing (CS) paper
+}
+
+
+@Article {
+  D2006,
+  title   = {Compressed Sensing},
+  author  = {David L. Donoho},
+  journal = {IEEE Transactions on Information Theory},
+  volume  = {52},
+  issue   = {4},
+  month   = {April},
+  year    = {2006},
+  pages   = {1289-1306}
+}
+@Comment {
+  Early Compressive Sensing (CS) paper
+}
+
+
+@Article {
+  VMB2002,
+  title   = {Sampling Signals With Finite Rate of Innovation},
+  author  = {Martin Vetterli and Pina Marziliano and Thierry Blu},
+  journal = {IEEE Transactions on Signal Processing},
+  volume  = {50},
+  issue   = {6},
+  month   = {June},
+  year    = {2002},
+  pages   = {1417-1428}
+}
+@Comment {
+  First (?) Finite Rate of Innovation (FRI) paper
+}
+
+
+@Article {
+  RBB2012,
+  title   = {Activity of the same motor cortex neurons during repeated experience with perturbed movement dynamics},
+  author  = {Andrew G. Richardson and Tommaso Borghi and Emilio Bizzi},
+  journal = {Journal of Neurophysiology},
+  volume  = {107},
+  number  = {11},
+  month   = {June},
+  year    = {2012},
+  pages   = {3144-3154}
+}
+@Comment {
+  chronically implanted microelectrode arrays
+  study long-term neuronal responses to repeated experience with perturbing, velocity-dependent force fields
+  long-term learning was evident in the performance improvements
+}
+
+
+@Article {
+  RLP2008,
+  title   = {Neuronal activity in the cingulate motor areas during adaptation to a new dynamic environment},
+  author  = {Andrew G. Richardson and Glenda Lassi-Tucci and Camillo Padoa-Schioppa and Emilio Bizzi},
+  journal = {Journal of Neurophysiology},
+  volume  = {99},
+  number  = {3},
+  month   = {January},
+  year    = {2008},
+  pages   = {1254-1266}
+}
+@Comment {
+  original monkey analysis
+}
+
+
+@Article {
+  WFS2007,
+  title   = {An Energy-Efficient Micropower Neural Recording Amplifier},
+  author  = {Woradorn Wattanapanitch and Michale Fee and Rahul Sarpeshkar},
+  journal = {IEEE Transactions on Biomedical Circuits and Systems},
+  volume  = {1},
+  number  = {2},
+  month   = {June},
+  year    = {2007},
+  pages   = {136-147}
+}
+@Comment {
+  1 electrode (?)
+  Can detect:
+    Neural Spikes: 7.56 uW
+    LFP: 2.08 uW
+  Ultralow-power operation is very important to
+    (1) minimize heat dissipation in the brain
+    (2) preserve long-battery life / maximize time between recharges
+  wired (?)
+}
+
+
+@Article {
+  BMT2012,
+  title   = {Batteries used to power implantable biomedical devices},
+  author  = {David C. Bock and Amy C. Marschilok and Kenneth J. Takeuchi and Esther S. Takeuchi},
+  journal = {Electrochimica Acta},
+  volume  = {84},
+  month   = {December},
+  year    = {2012},
+  pages   = {155-164}
+}
+@Comment {
+  original monkey analysis
+}

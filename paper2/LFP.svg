@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1776"
+   height="579"
+   id="svg21216"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="LFP.eps">
+  <defs
+     id="defs21218" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="1637.2746"
+     inkscape:cy="219.21382"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata21221">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-473.36218)">
+    <g
+       style="fill-rule:evenodd"
+       id="g14599"
+       transform="matrix(0.09,0,0,0.09,350.21059,148.99099)">
+      <line
+         class="fil1 str1"
+         x1="1600"
+         y1="9414"
+         x2="1600"
+         y2="9367"
+         id="line6583"
+         style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+      <g
+         id="g14556">
+        <line
+           style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round"
+           id="line6563"
+           y2="9414"
+           x2="1600"
+           y1="9414"
+           x1="-3137"
+           class="fil1 str1" />
+        <g
+           id="g14515">
+          <line
+             class="fil1 str1"
+             x1="-3137"
+             y1="9414"
+             x2="-3137"
+             y2="5634"
+             id="line6565"
+             style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+          <line
+             class="fil1 str1"
+             x1="-3137"
+             y1="9414"
+             x2="-3137"
+             y2="9367"
+             id="line6567"
+             style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+          <text
+             x="-3530"
+             y="9712"
+             class="fil2 fnt0"
+             id="text6569"
+             style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">-180</text>
+          <line
+             class="fil1 str1"
+             x1="-1953"
+             y1="9414"
+             x2="-1953"
+             y2="9367"
+             id="line6571"
+             style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+          <text
+             x="-2269"
+             y="9712"
+             class="fil2 fnt0"
+             id="text6573"
+             style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">-90</text>
+          <line
+             class="fil1 str1"
+             x1="-769"
+             y1="9414"
+             x2="-769"
+             y2="9367"
+             id="line6575"
+             style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+          <text
+             x="-845"
+             y="9712"
+             class="fil2 fnt0"
+             id="text6577"
+             style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">0</text>
+          <line
+             class="fil1 str1"
+             x1="416"
+             y1="9414"
+             x2="416"
+             y2="9367"
+             id="line6579"
+             style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+          <text
+             x="262"
+             y="9712"
+             class="fil2 fnt0"
+             id="text6581"
+             style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">90</text>
+          <text
+             x="1368"
+             y="9712"
+             class="fil2 fnt0"
+             id="text6585"
+             style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">180</text>
+          <line
+             class="fil1 str1"
+             x1="-3137"
+             y1="9414"
+             x2="-3090"
+             y2="9414"
+             id="line6587"
+             style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+          <text
+             x="-3563"
+             y="9517"
+             class="fil2 fnt0"
+             id="text6589"
+             style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">0.8</text>
+          <line
+             class="fil1 str1"
+             x1="-3137"
+             y1="8657"
+             x2="-3090"
+             y2="8657"
+             id="line6591"
+             style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+          <text
+             x="-3563"
+             y="8760"
+             class="fil2 fnt0"
+             id="text6593"
+             style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">0.9</text>
+          <line
+             class="fil1 str1"
+             x1="-3137"
+             y1="7902"
+             x2="-3090"
+             y2="7902"
+             id="line6595"
+             style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+          <text
+             x="-3331"
+             y="8005"
+             class="fil2 fnt0"
+             id="text6597"
+             style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">1</text>
+          <line
+             class="fil1 str1"
+             x1="-3137"
+             y1="7146"
+             x2="-3090"
+             y2="7146"
+             id="line6599"
+             style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+          <text
+             x="-3563"
+             y="7249"
+             class="fil2 fnt0"
+             id="text6601"
+             style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">1.1</text>
+          <line
+             class="fil1 str1"
+             x1="-3137"
+             y1="6390"
+             x2="-3090"
+             y2="6390"
+             id="line6603"
+             style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+          <text
+             x="-3563"
+             y="6493"
+             class="fil2 fnt0"
+             id="text6605"
+             style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">1.2</text>
+          <line
+             class="fil1 str1"
+             x1="-3137"
+             y1="5634"
+             x2="-3090"
+             y2="5634"
+             id="line6607"
+             style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+          <text
+             x="-3563"
+             y="5737"
+             class="fil2 fnt0"
+             id="text6609"
+             style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">1.3</text>
+          <polyline
+             class="fil1 str11"
+             points="-2990,7453 -2693,6992 -2397,6660 -2101,6523 -1806,6612 -1509,6910 -1213,7350 -917,7850 -622,8326 -325,8714 -29,8969 267,9068 562,9003 859,8779 1155,8417 1451,7954 "
+             id="polyline6611"
+             style="fill:none;stroke:#000000;stroke-width:69.44090271;stroke-linejoin:round;stroke-dasharray:69.440945, 69.440945" />
+          <path
+             class="fil12"
+             d="m -1987,6522 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83 z"
+             id="path6613"
+             inkscape:connector-curvature="0"
+             style="fill:#7c7c7d" />
+          <path
+             class="fil1 str12"
+             d="m -1987,6522 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83"
+             id="path6615"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-width:69.44090271;stroke-linejoin:round" />
+          <polyline
+             class="fil1 str13"
+             points="-2990,7244 -2693,6875 -2397,6662 -2101,6649 -1806,6840 -1509,7194 -1213,7641 -917,8102 -622,8507 -325,8806 -29,8966 267,8976 562,8832 859,8549 1155,8154 1451,7697 "
+             id="polyline6617"
+             style="fill:none;stroke:#ff0000;stroke-width:69.44090271;stroke-linejoin:round" />
+          <path
+             class="fil10"
+             d="m -2148,6628 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83 z"
+             id="path6619"
+             inkscape:connector-curvature="0"
+             style="fill:#ff6666" />
+          <path
+             class="fil1 str13"
+             d="m -2148,6628 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83"
+             id="path6621"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#ff0000;stroke-width:69.44090271;stroke-linejoin:round" />
+          <polyline
+             class="fil1 str14"
+             points="-2990,7442 -2693,6955 -2397,6598 -2101,6447 -1806,6536 -1509,6845 -1213,7307 -917,7833 -622,8334 -325,8743 -29,9014 267,9122 562,9058 859,8829 1155,8453 1451,7970 "
+             id="polyline6623"
+             style="fill:none;stroke:#0000ff;stroke-width:69.44090271;stroke-linejoin:round" />
+          <path
+             class="fil4"
+             d="m -1979,6444 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83 z"
+             id="path6625"
+             inkscape:connector-curvature="0"
+             style="fill:#6666ff" />
+          <path
+             class="fil1 str14"
+             d="m -1979,6444 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83"
+             id="path6627"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#0000ff;stroke-width:69.44090271;stroke-linejoin:round" />
+          <polyline
+             class="fil1 str15"
+             points="-2990,7509 -2693,7020 -2397,6650 -2101,6476 -1806,6536 -1509,6817 -1213,7259 -917,7774 -622,8275 -325,8691 -29,8976 267,9101 562,9058 859,8850 1155,8494 1451,8028 "
+             id="polyline6629"
+             style="fill:none;stroke:#00ff00;stroke-width:69.44090271;stroke-linejoin:round" />
+          <path
+             class="fil7"
+             d="m -1944,6469 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83 z"
+             id="path6631"
+             inkscape:connector-curvature="0"
+             style="fill:#66ff66" />
+          <path
+             class="fil1 str15"
+             d="m -1944,6469 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83"
+             id="path6633"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#00ff00;stroke-width:69.44090271;stroke-linejoin:round" />
+          <text
+             x="-1795"
+             y="9979"
+             class="fil2 fnt0"
+             id="text6635"
+             style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">Phase (degrees)</text>
+          <g
+             transform="matrix(-4.37114e-8,-1,1,-4.37114e-8,-9189,13230)"
+             id="g6637">
+            <text
+               x="4250"
+               y="5500"
+               class="fil2 fnt0"
+               id="text6639"
+               style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">Relative Risk of Spiking</text>
+          </g>
+          <text
+             x="-3260"
+             y="9537"
+             class="fil2 fnt1"
+             id="text6641"
+             style="font-size:138.88600159px;font-weight:normal;fill:#000000;font-family:Arial" />
+          <text
+             x="1477"
+             y="5756"
+             class="fil2 fnt1"
+             id="text6643"
+             style="font-size:138.88600159px;font-weight:normal;fill:#000000;font-family:Arial" />
+        </g>
+      </g>
+    </g>
+    <g
+       style="fill-rule:evenodd"
+       id="g14686"
+       transform="matrix(0.09,0,0,0.09,400.21101,148.99099)">
+      <polyline
+         class="fil1 str0"
+         points="2245,9414 2245,5634 6980,5634 6980,9414 2245,9414 "
+         id="polyline6647"
+         style="fill:none;stroke:#ffffff;stroke-width:6.9409399;stroke-linejoin:round" />
+      <line
+         class="fil1 str1"
+         x1="2245"
+         y1="9414"
+         x2="6980"
+         y2="9414"
+         id="line6649"
+         style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+      <line
+         class="fil1 str1"
+         x1="2245"
+         y1="9414"
+         x2="2245"
+         y2="5634"
+         id="line6651"
+         style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+      <line
+         class="fil1 str1"
+         x1="2245"
+         y1="9414"
+         x2="2245"
+         y2="9367"
+         id="line6653"
+         style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+      <text
+         x="1852"
+         y="9712"
+         class="fil2 fnt0"
+         id="text6655"
+         style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">-180</text>
+      <line
+         class="fil1 str1"
+         x1="3428"
+         y1="9414"
+         x2="3428"
+         y2="9367"
+         id="line6657"
+         style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+      <text
+         x="3112"
+         y="9712"
+         class="fil2 fnt0"
+         id="text6659"
+         style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">-90</text>
+      <line
+         class="fil1 str1"
+         x1="4612"
+         y1="9414"
+         x2="4612"
+         y2="9367"
+         id="line6661"
+         style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+      <text
+         x="4536"
+         y="9712"
+         class="fil2 fnt0"
+         id="text6663"
+         style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">0</text>
+      <line
+         class="fil1 str1"
+         x1="5796"
+         y1="9414"
+         x2="5796"
+         y2="9367"
+         id="line6665"
+         style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+      <text
+         x="5642"
+         y="9712"
+         class="fil2 fnt0"
+         id="text6667"
+         style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">90</text>
+      <line
+         class="fil1 str1"
+         x1="2245"
+         y1="9414"
+         x2="2292"
+         y2="9414"
+         id="line6673"
+         style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+      <text
+         x="1819"
+         y="9517"
+         class="fil2 fnt0"
+         id="text6675"
+         style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">0.8</text>
+      <line
+         class="fil1 str1"
+         x1="2245"
+         y1="8657"
+         x2="2292"
+         y2="8657"
+         id="line6677"
+         style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+      <text
+         x="1819"
+         y="8760"
+         class="fil2 fnt0"
+         id="text6679"
+         style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">0.9</text>
+      <line
+         class="fil1 str1"
+         x1="2245"
+         y1="7902"
+         x2="2292"
+         y2="7902"
+         id="line6681"
+         style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+      <text
+         x="2051"
+         y="8005"
+         class="fil2 fnt0"
+         id="text6683"
+         style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">1</text>
+      <line
+         class="fil1 str1"
+         x1="2245"
+         y1="7146"
+         x2="2292"
+         y2="7146"
+         id="line6685"
+         style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+      <text
+         x="1819"
+         y="7249"
+         class="fil2 fnt0"
+         id="text6687"
+         style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">1.1</text>
+      <line
+         class="fil1 str1"
+         x1="2245"
+         y1="6390"
+         x2="2292"
+         y2="6390"
+         id="line6689"
+         style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+      <text
+         x="1819"
+         y="6493"
+         class="fil2 fnt0"
+         id="text6691"
+         style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">1.2</text>
+      <line
+         class="fil1 str1"
+         x1="2245"
+         y1="5634"
+         x2="2292"
+         y2="5634"
+         id="line6693"
+         style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+      <text
+         x="1819"
+         y="5737"
+         class="fil2 fnt0"
+         id="text6695"
+         style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">1.3</text>
+      <polyline
+         class="fil1 str11"
+         points="2392,7453 2689,6992 2985,6660 3280,6523 3576,6612 3873,6910 4168,7350 4464,7850 4760,8326 5057,8714 5352,8969 5648,9068 5944,9003 6240,8779 6536,8417 6832,7954 "
+         id="polyline6697"
+         style="fill:none;stroke:#000000;stroke-width:69.44090271;stroke-linejoin:round;stroke-dasharray:69.440945, 69.440945" />
+      <path
+         class="fil12"
+         d="m 3395,6522 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83 z"
+         id="path6699"
+         inkscape:connector-curvature="0"
+         style="fill:#7c7c7d" />
+      <path
+         class="fil1 str12"
+         d="m 3395,6522 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83"
+         id="path6701"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:69.44090271;stroke-linejoin:round" />
+      <polyline
+         class="fil1 str13"
+         points="2392,7847 2689,7883 2985,7922 3280,7957 3576,7984 3873,7998 4168,7998 4464,7983 4760,7955 5057,7920 5352,7881 5648,7846 5944,7818 6240,7804 6536,7804 6832,7819 "
+         id="polyline6703"
+         style="fill:none;stroke:#ff0000;stroke-width:69.44090271;stroke-linejoin:round" />
+      <path
+         class="fil10"
+         d="m 6462,7802 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83 z"
+         id="path6705"
+         inkscape:connector-curvature="0"
+         style="fill:#ff6666" />
+      <path
+         class="fil1 str13"
+         d="m 6462,7802 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83"
+         id="path6707"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000;stroke-width:69.44090271;stroke-linejoin:round" />
+      <polyline
+         class="fil1 str14"
+         points="2392,7617 2689,7313 2985,7093 3280,6999 3576,7050 3873,7235 4168,7520 4464,7851 4760,8176 5057,8448 5352,8633 5648,8708 5944,8668 6240,8514 6536,8265 6832,7951 "
+         id="polyline6709"
+         style="fill:none;stroke:#0000ff;stroke-width:69.44090271;stroke-linejoin:round" />
+      <path
+         class="fil4"
+         d="m 3409,6998 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83 z"
+         id="path6711"
+         inkscape:connector-curvature="0"
+         style="fill:#6666ff" />
+      <path
+         class="fil1 str14"
+         d="m 3409,6998 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83"
+         id="path6713"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff;stroke-width:69.44090271;stroke-linejoin:round" />
+      <polyline
+         class="fil1 str15"
+         points="2392,7373 2689,6845 2985,6463 3280,6311 3576,6422 3873,6773 4168,7285 4464,7858 4760,8396 5057,8829 5352,9110 5648,9215 5944,9139 6240,8884 6536,8472 6832,7946 "
+         id="polyline6715"
+         style="fill:none;stroke:#00ff00;stroke-width:69.44090271;stroke-linejoin:round" />
+      <path
+         class="fil7"
+         d="m 3387,6310 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83 z"
+         id="path6717"
+         inkscape:connector-curvature="0"
+         style="fill:#66ff66" />
+      <path
+         class="fil1 str15"
+         d="m 3387,6310 c 0,46 -37,83 -83,83 -46,0 -83,-37 -83,-83 0,-46 37,-83 83,-83 46,0 83,37 83,83"
+         id="path6719"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#00ff00;stroke-width:69.44090271;stroke-linejoin:round" />
+      <text
+         x="3586"
+         y="9979"
+         class="fil2 fnt0"
+         id="text6721"
+         style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">Phase (degrees)</text>
+      <g
+         transform="matrix(-4.37114e-8,-1,1,-4.37114e-8,-3807,13230)"
+         id="g6723">
+        <text
+           x="4250"
+           y="5500"
+           class="fil2 fnt0"
+           id="text6725"
+           style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">Relative Risk of Spiking</text>
+      </g>
+      <line
+         class="fil1 str1"
+         x1="6980.0039"
+         y1="9414"
+         x2="6980.0039"
+         y2="9367"
+         id="line6669"
+         style="fill:none;stroke:#000000;stroke-width:6.9409399;stroke-linejoin:round" />
+      <text
+         x="6748.9985"
+         y="9712"
+         class="fil2 fnt0"
+         id="text6671"
+         style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial">180</text>
+    </g>
+    <polyline
+       style="fill:none;stroke:#ffffff;stroke-width:6.9409399;stroke-linejoin:round"
+       id="polyline6729"
+       points="7626,9414 7626,5634 12362,5634 12362,9414 7626,9414 "
+       class="fil1 str0"
+       transform="matrix(0.09,0,0,0.09,450.21061,148.99099)" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+       id="line6731"
+       y2="996.25098"
+       x2="1562.7905"
+       y1="996.25098"
+       x1="1136.5507"
+       class="fil1 str1" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+       id="line6733"
+       y2="656.05103"
+       x2="1136.5507"
+       y1="996.25098"
+       x1="1136.5507"
+       class="fil1 str1" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+       id="line6735"
+       y2="992.02094"
+       x2="1136.5507"
+       y1="996.25098"
+       x1="1136.5507"
+       class="fil1 str1" />
+    <text
+       style="font-size:24.99983978px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6737"
+       class="fil2 fnt0"
+       y="1023.0709"
+       x="1101.1807">-180</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+       id="line6739"
+       y2="992.02094"
+       x2="1243.1106"
+       y1="996.25098"
+       x1="1243.1106"
+       class="fil1 str1" />
+    <text
+       style="font-size:24.99983978px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6741"
+       class="fil2 fnt0"
+       y="1023.0709"
+       x="1214.6705">-90</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+       id="line6743"
+       y2="992.02094"
+       x2="1349.6705"
+       y1="996.25098"
+       x1="1349.6705"
+       class="fil1 str1" />
+    <text
+       style="font-size:24.99983978px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6745"
+       class="fil2 fnt0"
+       y="1023.0709"
+       x="1342.8306">0</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+       id="line6747"
+       y2="992.02094"
+       x2="1456.2306"
+       y1="996.25098"
+       x1="1456.2306"
+       class="fil1 str1" />
+    <text
+       style="font-size:24.99983978px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6749"
+       class="fil2 fnt0"
+       y="1023.0709"
+       x="1442.3706">90</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+       id="line6751"
+       y2="992.02094"
+       x2="1562.7905"
+       y1="996.25098"
+       x1="1562.7905"
+       class="fil1 str1" />
+    <text
+       style="font-size:24.99983978px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6753"
+       class="fil2 fnt0"
+       y="1023.0709"
+       x="1542.0006">180</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+       id="line6755"
+       y2="996.25098"
+       x2="1140.6906"
+       y1="996.25098"
+       x1="1136.5507"
+       class="fil1 str1" />
+    <text
+       style="font-size:24.99983978px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6757"
+       class="fil2 fnt0"
+       y="1005.5209"
+       x="1098.2106">0.8</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+       id="line6759"
+       y2="928.12097"
+       x2="1140.6906"
+       y1="928.12097"
+       x1="1136.5507"
+       class="fil1 str1" />
+    <text
+       style="font-size:24.99983978px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6761"
+       class="fil2 fnt0"
+       y="937.39093"
+       x="1098.2106">0.9</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+       id="line6763"
+       y2="860.17096"
+       x2="1140.6906"
+       y1="860.17096"
+       x1="1136.5507"
+       class="fil1 str1" />
+    <text
+       style="font-size:24.99983978px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6765"
+       class="fil2 fnt0"
+       y="869.44092"
+       x="1119.0906">1</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+       id="line6767"
+       y2="792.13098"
+       x2="1140.6906"
+       y1="792.13098"
+       x1="1136.5507"
+       class="fil1 str1" />
+    <text
+       style="font-size:24.99983978px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6769"
+       class="fil2 fnt0"
+       y="801.40094"
+       x="1098.2106">1.1</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+       id="line6771"
+       y2="724.091"
+       x2="1140.6906"
+       y1="724.091"
+       x1="1136.5507"
+       class="fil1 str1" />
+    <text
+       style="font-size:24.99983978px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6773"
+       class="fil2 fnt0"
+       y="733.36102"
+       x="1098.2106">1.2</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+       id="line6775"
+       y2="656.05103"
+       x2="1140.6906"
+       y1="656.05103"
+       x1="1136.5507"
+       class="fil1 str1" />
+    <text
+       style="font-size:24.99983978px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6777"
+       class="fil2 fnt0"
+       y="665.32098"
+       x="1098.2106">1.3</text>
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:69.44090271;stroke-linejoin:round;stroke-dasharray:69.440945, 69.440945"
+       id="polyline6779"
+       points="7773,7453 8069,6992 8366,6660 8662,6523 8957,6612 9253,6910 9550,7350 9846,7850 10141,8326 10438,8714 10734,8969 11030,9068 11325,9003 11622,8779 11918,8417 12214,7954 "
+       class="fil1 str11"
+       transform="matrix(0.09,0,0,0.09,450.21061,148.99099)" />
+    <path
+       style="fill:#7c7c7d;fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path6781"
+       d="m 1239.9606,735.97099 c 0,4.14 -3.33,7.47 -7.47,7.47 -4.14,0 -7.47,-3.33 -7.47,-7.47 0,-4.14 3.33,-7.47 7.47,-7.47 4.14,0 7.47,3.33 7.47,7.47 z"
+       class="fil12" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:6.24968147;stroke-linejoin:round"
+       inkscape:connector-curvature="0"
+       id="path6783"
+       d="m 1239.9606,735.97099 c 0,4.14 -3.33,7.47 -7.47,7.47 -4.14,0 -7.47,-3.33 -7.47,-7.47 0,-4.14 3.33,-7.47 7.47,-7.47 4.14,0 7.47,3.33 7.47,7.47"
+       class="fil1 str12" />
+    <polyline
+       style="fill:none;stroke:#ff0000;stroke-width:69.44090271;stroke-linejoin:round"
+       id="polyline6785"
+       points="7773,7775 8069,7831 8366,7896 8662,7961 8957,8016 9253,8054 9550,8069 9846,8059 10141,8025 10438,7972 10734,7907 11030,7843 11325,7785 11622,7745 11918,7729 12214,7741 "
+       class="fil1 str13"
+       transform="matrix(0.09,0,0,0.09,450.21061,148.99099)" />
+    <path
+       style="fill:#ff6666;fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path6787"
+       d="m 1532.8206,844.60099 c 0,4.14 -3.33,7.47 -7.47,7.47 -4.14,0 -7.47,-3.33 -7.47,-7.47 0,-4.14 3.33,-7.47 7.47,-7.47 4.14,0 7.47,3.33 7.47,7.47 z"
+       class="fil10" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:6.24968147;stroke-linejoin:round"
+       inkscape:connector-curvature="0"
+       id="path6789"
+       d="m 1532.8206,844.60099 c 0,4.14 -3.33,7.47 -7.47,7.47 -4.14,0 -7.47,-3.33 -7.47,-7.47 0,-4.14 3.33,-7.47 7.47,-7.47 4.14,0 7.47,3.33 7.47,7.47"
+       class="fil1 str13" />
+    <polyline
+       style="fill:none;stroke:#0000ff;stroke-width:69.44090271;stroke-linejoin:round"
+       id="polyline6791"
+       points="7773,7858 8069,7815 8366,7785 8662,7772 8957,7779 9253,7806 9550,7846 9846,7896 10141,7946 10438,7987 10734,8017 11030,8029 11325,8022 11622,7997 11918,7957 12214,7909 "
+       class="fil1 str14"
+       transform="matrix(0.09,0,0,0.09,450.21061,148.99099)" />
+    <path
+       style="fill:#6666ff;fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path6793"
+       d="m 1240.5906,848.47099 c 0,4.14 -3.33,7.47 -7.47,7.47 -4.14,0 -7.47,-3.33 -7.47,-7.47 0,-4.14 3.33,-7.47 7.47,-7.47 4.14,0 7.47,3.33 7.47,7.47 z"
+       class="fil4" />
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:6.24968147;stroke-linejoin:round"
+       inkscape:connector-curvature="0"
+       id="path6795"
+       d="m 1240.5906,848.47099 c 0,4.14 -3.33,7.47 -7.47,7.47 -4.14,0 -7.47,-3.33 -7.47,-7.47 0,-4.14 3.33,-7.47 7.47,-7.47 4.14,0 7.47,3.33 7.47,7.47"
+       class="fil1 str14" />
+    <polyline
+       style="fill:none;stroke:#00ff00;stroke-width:69.44090271;stroke-linejoin:round"
+       id="polyline6797"
+       points="7773,7020 8069,6719 8366,6606 8662,6706 8957,6995 9253,7416 9550,7887 9846,8332 10141,8692 10438,8925 10734,9007 11030,8934 11325,8711 11622,8359 11918,7917 12214,7444 "
+       class="fil1 str15"
+       transform="matrix(0.09,0,0,0.09,450.21061,148.99099)" />
+    <path
+       style="fill:#66ff66;fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       id="path6799"
+       d="m 1211.4306,743.53099 c 0,4.14 -3.33,7.47 -7.47,7.47 -4.14,0 -7.47,-3.33 -7.47,-7.47 0,-4.14 3.33,-7.47 7.47,-7.47 4.14,0 7.47,3.33 7.47,7.47 z"
+       class="fil7" />
+    <path
+       style="fill:none;stroke:#00ff00;stroke-width:6.24968147;stroke-linejoin:round"
+       inkscape:connector-curvature="0"
+       id="path6801"
+       d="m 1211.4306,743.53099 c 0,4.14 -3.33,7.47 -7.47,7.47 -4.14,0 -7.47,-3.33 -7.47,-7.47 0,-4.14 3.33,-7.47 7.47,-7.47 4.14,0 7.47,3.33 7.47,7.47"
+       class="fil1 str15" />
+    <text
+       style="font-size:24.99983978px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6803"
+       class="fil2 fnt0"
+       y="1047.101"
+       x="1257.3306">Phase (degrees)</text>
+    <g
+       style="fill-rule:evenodd"
+       id="g6805"
+       transform="matrix(0,-0.09,0.09,0,591.87061,1339.691)">
+      <text
+         style="font-size:277.77600098px;font-weight:normal;fill:#000000;font-family:Arial"
+         id="text6807"
+         class="fil2 fnt0"
+         y="5500"
+         x="4250">Relative Risk of Spiking</text>
+    </g>
+    <polyline
+       style="fill:none;stroke:#ffffff;stroke-width:6.9409399;stroke-linejoin:round"
+       id="polyline6859"
+       points="127,7325 127,5832 1505,5832 1505,7325 127,7325 "
+       class="fil1 str0"
+       transform="matrix(0.09000022,0,0,0.09000021,1639.0934,234.06432)" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468606;stroke-linejoin:round"
+       id="line6861"
+       y2="758.94556"
+       x2="1774.5437"
+       y1="758.94556"
+       x1="1650.5234"
+       class="fil1 str1" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468606;stroke-linejoin:round"
+       id="line6863"
+       y2="893.31586"
+       x2="1774.5437"
+       y1="893.31586"
+       x1="1650.5234"
+       class="fil1 str1" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468606;stroke-linejoin:round"
+       id="line6865"
+       y2="758.94556"
+       x2="1774.5437"
+       y1="893.31586"
+       x1="1774.5437"
+       class="fil1 str1" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468606;stroke-linejoin:round"
+       id="line6867"
+       y2="758.94556"
+       x2="1650.5234"
+       y1="893.31586"
+       x1="1650.5234"
+       class="fil1 str1" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468606;stroke-linejoin:round"
+       id="line6869"
+       y2="893.31586"
+       x2="1774.5437"
+       y1="893.31586"
+       x1="1650.5234"
+       class="fil1 str1" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468606;stroke-linejoin:round"
+       id="line6871"
+       y2="758.94556"
+       x2="1650.5234"
+       y1="893.31586"
+       x1="1650.5234"
+       class="fil1 str1" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468606;stroke-linejoin:round"
+       id="line6873"
+       y2="758.94556"
+       x2="1774.5437"
+       y1="758.94556"
+       x1="1650.5234"
+       class="fil1 str1" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468606;stroke-linejoin:round"
+       id="line6875"
+       y2="893.31586"
+       x2="1774.5437"
+       y1="893.31586"
+       x1="1650.5234"
+       class="fil1 str1" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468606;stroke-linejoin:round"
+       id="line6877"
+       y2="758.94556"
+       x2="1774.5437"
+       y1="893.31586"
+       x1="1774.5437"
+       class="fil1 str1" />
+    <line
+       style="fill:none;stroke:#000000;stroke-width:0.62468606;stroke-linejoin:round"
+       id="line6879"
+       y2="758.94556"
+       x2="1650.5234"
+       y1="893.31586"
+       x1="1650.5234"
+       class="fil1 str1" />
+    <text
+       style="font-size:24.99989891px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6881"
+       class="fil2 fnt0"
+       y="786.21564"
+       x="1699.8434">True</text>
+    <line
+       style="fill:none;stroke:#000000;stroke-width:6.24969625;stroke-linejoin:round;stroke-dasharray:6.24969998, 6.24969998"
+       id="line6883"
+       y2="777.39557"
+       x2="1695.9735"
+       y1="777.39557"
+       x1="1658.0834"
+       class="fil1 str11" />
+    <text
+       style="font-size:24.99989891px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6885"
+       class="fil2 fnt0"
+       y="818.79572"
+       x="1699.8434">AT</text>
+    <line
+       style="fill:none;stroke:#ff0000;stroke-width:6.24969625;stroke-linejoin:round"
+       id="line6887"
+       y2="809.88568"
+       x2="1695.9735"
+       y1="809.88568"
+       x1="1658.0834"
+       class="fil1 str13" />
+    <text
+       style="font-size:24.99989891px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6889"
+       class="fil2 fnt0"
+       y="851.37579"
+       x="1699.8434">gAT-1</text>
+    <line
+       style="fill:none;stroke:#0000ff;stroke-width:6.24969625;stroke-linejoin:round"
+       id="line6891"
+       y2="842.37573"
+       x2="1695.9735"
+       y1="842.37573"
+       x1="1658.0834"
+       class="fil1 str14" />
+    <text
+       style="font-size:24.99989891px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+       id="text6893"
+       class="fil2 fnt0"
+       y="883.86591"
+       x="1699.8434">gAT-2</text>
+    <line
+       style="fill:none;stroke:#00ff00;stroke-width:6.24969625;stroke-linejoin:round"
+       id="line6895"
+       y2="874.86578"
+       x2="1695.9735"
+       y1="874.86578"
+       x1="1658.0834"
+       class="fil1 str15" />
+    <g
+       id="g21939"
+       transform="translate(877.65078,-784.21852)">
+      <line
+         style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+         class="fil1 str1"
+         x1="-796.66486"
+         y1="1342.3179"
+         x2="598.24518"
+         y2="1342.3179"
+         id="line133-1" />
+      <line
+         style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+         class="fil1 str1"
+         x1="-796.66486"
+         y1="1342.3179"
+         x2="-796.66486"
+         y2="1356.2679"
+         id="line137-7" />
+      <text
+         style="font-size:29.99979019px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+         x="-804.94489"
+         y="1331.9994"
+         class="fil2 fnt0"
+         id="text139-1">0</text>
+      <line
+         style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+         class="fil1 str1"
+         x1="-657.16486"
+         y1="1342.3179"
+         x2="-657.16486"
+         y2="1356.2679"
+         id="line141-1" />
+      <text
+         style="font-size:29.99979019px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+         x="-673.81488"
+         y="1331.9994"
+         class="fil2 fnt0"
+         id="text143-5">10</text>
+      <line
+         style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+         class="fil1 str1"
+         x1="-517.66486"
+         y1="1342.3179"
+         x2="-517.66486"
+         y2="1356.2679"
+         id="line145-2" />
+      <text
+         style="font-size:29.99979019px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+         x="-534.31488"
+         y="1331.9994"
+         class="fil2 fnt0"
+         id="text147-7">20</text>
+      <line
+         style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+         class="fil1 str1"
+         x1="-378.16489"
+         y1="1342.3179"
+         x2="-378.16489"
+         y2="1356.2679"
+         id="line149-6" />
+      <text
+         style="font-size:29.99979019px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+         x="-394.81485"
+         y="1331.9994"
+         class="fil2 fnt0"
+         id="text151-1">30</text>
+      <line
+         style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+         class="fil1 str1"
+         x1="-238.66484"
+         y1="1342.3179"
+         x2="-238.66484"
+         y2="1356.2679"
+         id="line153-4" />
+      <text
+         style="font-size:29.99979019px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+         x="-255.40483"
+         y="1331.9994"
+         class="fil2 fnt0"
+         id="text155-2">40</text>
+      <line
+         style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+         class="fil1 str1"
+         x1="-99.254868"
+         y1="1342.3179"
+         x2="-99.254868"
+         y2="1356.2679"
+         id="line157-3" />
+      <text
+         style="font-size:29.99979019px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+         x="-115.90489"
+         y="1331.9994"
+         class="fil2 fnt0"
+         id="text159-2">50</text>
+      <line
+         style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+         class="fil1 str1"
+         x1="40.245071"
+         y1="1342.3179"
+         x2="40.245071"
+         y2="1356.2679"
+         id="line161-2" />
+      <text
+         style="font-size:29.99979019px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+         x="23.595108"
+         y="1331.9994"
+         class="fil2 fnt0"
+         id="text163-1">60</text>
+      <line
+         style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+         class="fil1 str1"
+         x1="179.74507"
+         y1="1342.3179"
+         x2="179.74507"
+         y2="1356.2679"
+         id="line165-6" />
+      <text
+         style="font-size:29.99979019px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+         x="163.09511"
+         y="1331.9994"
+         class="fil2 fnt0"
+         id="text167-8">70</text>
+      <line
+         style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+         class="fil1 str1"
+         x1="319.24518"
+         y1="1342.3179"
+         x2="319.24518"
+         y2="1356.2679"
+         id="line169-8-5" />
+      <text
+         style="font-size:29.99979019px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+         x="302.50507"
+         y="1331.9994"
+         class="fil2 fnt0"
+         id="text171-7">80</text>
+      <line
+         style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+         class="fil1 str1"
+         x1="458.65509"
+         y1="1342.3179"
+         x2="458.65509"
+         y2="1356.2679"
+         id="line173-8-6" />
+      <text
+         style="font-size:29.99979019px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+         x="442.00507"
+         y="1331.9994"
+         class="fil2 fnt0"
+         id="text175-2-1">90</text>
+      <line
+         style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+         class="fil1 str1"
+         x1="598.24518"
+         y1="1342.3179"
+         x2="598.24518"
+         y2="1356.2679"
+         id="line177-4-8" />
+      <text
+         style="font-size:29.99979019px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+         x="573.22516"
+         y="1331.9994"
+         class="fil2 fnt0"
+         id="text179-5-9">100</text>
+      <line
+         style="fill:none;stroke:#000000;stroke-width:0.62468457;stroke-linejoin:round"
+         class="fil1 str1"
+         x1="-796.66486"
+         y1="1342.3179"
+         x2="-782.80487"
+         y2="1342.3179"
+         id="line181-5-2" />
+      <text
+         style="font-size:29.99979019px;font-weight:normal;fill:#000000;fill-rule:evenodd;font-family:Arial"
+         x="-242.98485"
+         y="1280.2668"
+         class="fil2 fnt0"
+         id="text225-7">Sampling Period (ms)</text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path6310"
+         d="m -587.15337,1342.3668 -40.11387,88.3554"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path6312"
+         d="m -99.232283,1356.0003 7.86546,74.1975"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path7497"
+         d="m 443.44375,1431.6867 154.6159,-75.6394"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,894 @@
+
+%% bare_jrnl.tex
+%% V1.3
+%% 2007/01/11
+%% by Michael Shell
+%% see http://www.michaelshell.org/
+%% for current contact information.
+%%
+%% This is a skeleton file demonstrating the use of IEEEtran.cls
+%% (requires IEEEtran.cls version 1.7 or later) with an IEEE journal paper.
+%%
+%% Support sites:
+%% http://www.michaelshell.org/tex/ieeetran/
+%% http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/
+%% and
+%% http://www.ieee.org/
+
+
+
+% *** Authors should verify (and, if needed, correct) their LaTeX system  ***
+% *** with the testflow diagnostic prior to trusting their LaTeX platform ***
+% *** with production work. IEEE's font choices can trigger bugs that do  ***
+% *** not appear when using other class files.                            ***
+% The testflow support page is at:
+% http://www.michaelshell.org/tex/testflow/
+
+
+%%*************************************************************************
+%% Legal Notice:
+%% This code is offered as-is without any warranty either expressed or
+%% implied; without even the implied warranty of MERCHANTABILITY or
+%% FITNESS FOR A PARTICULAR PURPOSE! 
+%% User assumes all risk.
+%% In no event shall IEEE or any contributor to this code be liable for
+%% any damages or losses, including, but not limited to, incidental,
+%% consequential, or any other damages, resulting from the use or misuse
+%% of any information contained here.
+%%
+%% All comments are the opinions of their respective authors and are not
+%% necessarily endorsed by the IEEE.
+%%
+%% This work is distributed under the LaTeX Project Public License (LPPL)
+%% ( http://www.latex-project.org/ ) version 1.3, and may be freely used,
+%% distributed and modified. A copy of the LPPL, version 1.3, is included
+%% in the base LaTeX documentation of all distributions of LaTeX released
+%% 2003/12/01 or later.
+%% Retain all contribution notices and credits.
+%% ** Modified files should be clearly indicated as such, including  **
+%% ** renaming them and changing author support contact information. **
+%%
+%% File list of work: IEEEtran.cls, IEEEtran_HOWTO.pdf, bare_adv.tex,
+%%                    bare_conf.tex, bare_jrnl.tex, bare_jrnl_compsoc.tex
+%%*************************************************************************
+
+% Note that the a4paper option is mainly intended so that authors in
+% countries using A4 can easily print to A4 and see how their papers will
+% look in print - the typesetting of the document will not typically be
+% affected with changes in paper size (but the bottom and side margins will).
+% Use the testflow package mentioned above to verify correct handling of
+% both paper sizes by the user's LaTeX system.
+%
+% Also note that the "draftcls" or "draftclsnofoot", not "draft", option
+% should be used if it is desired that the figures are to be displayed in
+% draft mode.
+%
+\documentclass[journal]{IEEEtran}
+%
+% If IEEEtran.cls has not been installed into the LaTeX system files,
+% manually specify the path to it like:
+% \documentclass[journal]{../sty/IEEEtran}
+
+
+
+
+
+% Some very useful LaTeX packages include:
+% (uncomment the ones you want to load)
+
+
+% *** MISC UTILITY PACKAGES ***
+%
+%\usepackage{ifpdf}
+% Heiko Oberdiek's ifpdf.sty is very useful if you need conditional
+% compilation based on whether the output is pdf or dvi.
+% usage:
+% \ifpdf
+%   % pdf code
+% \else
+%   % dvi code
+% \fi
+% The latest version of ifpdf.sty can be obtained from:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/oberdiek/
+% Also, note that IEEEtran.cls V1.7 and later provides a builtin
+% \ifCLASSINFOpdf conditional that works the same way.
+% When switching from latex to pdflatex and vice-versa, the compiler may
+% have to be run twice to clear warning/error messages.
+
+
+
+
+
+
+% *** CITATION PACKAGES ***
+%
+\usepackage{cite}
+% cite.sty was written by Donald Arseneau
+% V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
+% \cite{} output to follow that of IEEE. Loading the cite package will
+% result in citation numbers being automatically sorted and properly
+% "compressed/ranged". e.g., [1], [9], [2], [7], [5], [6] without using
+% cite.sty will become [1], [2], [5]--[7], [9] using cite.sty. cite.sty's
+% \cite will automatically add leading space, if needed. Use cite.sty's
+% noadjust option (cite.sty V3.8 and later) if you want to turn this off.
+% cite.sty is already installed on most LaTeX systems. Be sure and use
+% version 4.0 (2003-05-27) and later if using hyperref.sty. cite.sty does
+% not currently provide for hyperlinked citations.
+% The latest version can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/cite/
+% The documentation is contained in the cite.sty file itself.
+
+
+
+
+
+
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+  % \usepackage[pdftex]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{./eps/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
+  % will default to the driver specified in the system graphics.cfg if no
+  % driver is specified.
+   \usepackage[dvips]{graphicx}
+  % declare the path(s) where your graphic files are
+   \graphicspath{{./eps/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+   \DeclareGraphicsExtensions{.eps}
+\fi
+% graphicx was written by David Carlisle and Sebastian Rahtz. It is
+% required if you want graphics, photos, etc. graphicx.sty is already
+% installed on most LaTeX systems. The latest version and documentation can
+% be obtained at: 
+% http://www.ctan.org/tex-archive/macros/latex/required/graphics/
+% Another good source of documentation is "Using Imported Graphics in
+% LaTeX2e" by Keith Reckdahl which can be found as epslatex.ps or
+% epslatex.pdf at: http://www.ctan.org/tex-archive/info/
+%
+% latex, and pdflatex in dvi mode, support graphics in encapsulated
+% postscript (.eps) format. pdflatex in pdf mode supports graphics
+% in .pdf, .jpeg, .png and .mps (metapost) formats. Users should ensure
+% that all non-photo figures use a vector format (.eps, .pdf, .mps) and
+% not a bitmapped formats (.jpeg, .png). IEEE frowns on bitmapped formats
+% which can result in "jaggedy"/blurry rendering of lines and letters as
+% well as large increases in file sizes.
+%
+% You can find documentation about the pdfTeX application at:
+% http://www.tug.org/applications/pdftex
+
+
+
+
+
+% *** MATH PACKAGES ***
+%
+\usepackage[cmex10]{amsmath}
+% A popular package from the American Mathematical Society that provides
+% many useful and powerful commands for dealing with mathematics. If using
+% it, be sure to load this package with the cmex10 option to ensure that
+% only type 1 fonts will utilized at all point sizes. Without this option,
+% it is possible that some math symbols, particularly those within
+% footnotes, will be rendered in bitmap form which will result in a
+% document that can not be IEEE Xplore compliant!
+%
+% Also, note that the amsmath package sets \interdisplaylinepenalty to 10000
+% thus preventing page breaks from occurring within multiline equations. Use:
+%\interdisplaylinepenalty=2500
+% after loading amsmath to restore such page breaks as IEEEtran.cls normally
+% does. amsmath.sty is already installed on most LaTeX systems. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/required/amslatex/math/
+
+
+
+
+
+% *** SPECIALIZED LIST PACKAGES ***
+%
+\usepackage{algorithmic}
+% algorithmic.sty was written by Peter Williams and Rogerio Brito.
+% This package provides an algorithmic environment fo describing algorithms.
+% You can use the algorithmic environment in-text or within a figure
+% environment to provide for a floating algorithm. Do NOT use the algorithm
+% floating environment provided by algorithm.sty (by the same authors) or
+% algorithm2e.sty (by Christophe Fiorio) as IEEE does not use dedicated
+% algorithm float types and packages that provide these will not provide
+% correct IEEE style captions. The latest version and documentation of
+% algorithmic.sty can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/algorithms/
+% There is also a support site at:
+% http://algorithms.berlios.de/index.html
+% Also of interest may be the (relatively newer and more customizable)
+% algorithmicx.sty package by Szasz Janos:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/algorithmicx/
+
+
+
+
+% *** ALIGNMENT PACKAGES ***
+%
+%\usepackage{array}
+% Frank Mittelbach's and David Carlisle's array.sty patches and improves
+% the standard LaTeX2e array and tabular environments to provide better
+% appearance and additional user controls. As the default LaTeX2e table
+% generation code is lacking to the point of almost being broken with
+% respect to the quality of the end results, all users are strongly
+% advised to use an enhanced (at the very least that provided by array.sty)
+% set of table tools. array.sty is already installed on most systems. The
+% latest version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/required/tools/
+
+
+%\usepackage{mdwmath}
+%\usepackage{mdwtab}
+% Also highly recommended is Mark Wooding's extremely powerful MDW tools,
+% especially mdwmath.sty and mdwtab.sty which are used to format equations
+% and tables, respectively. The MDWtools set is already installed on most
+% LaTeX systems. The lastest version and documentation is available at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/mdwtools/
+
+
+% IEEEtran contains the IEEEeqnarray family of commands that can be used to
+% generate multiline equations as well as matrices, tables, etc., of high
+% quality.
+
+
+%\usepackage{eqparbox}
+% Also of notable interest is Scott Pakin's eqparbox package for creating
+% (automatically sized) equal width boxes - aka "natural width parboxes".
+% Available at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/eqparbox/
+
+
+
+
+
+% *** SUBFIGURE PACKAGES ***
+%\usepackage[tight,footnotesize]{subfigure}
+% subfigure.sty was written by Steven Douglas Cochran. This package makes it
+% easy to put subfigures in your figures. e.g., "Figure 1a and 1b". For IEEE
+% work, it is a good idea to load it with the tight package option to reduce
+% the amount of white space around the subfigures. subfigure.sty is already
+% installed on most LaTeX systems. The latest version and documentation can
+% be obtained at:
+% http://www.ctan.org/tex-archive/obsolete/macros/latex/contrib/subfigure/
+% subfigure.sty has been superceeded by subfig.sty.
+
+
+
+%\usepackage[caption=false]{caption}
+%\usepackage[font=footnotesize]{subfig}
+% subfig.sty, also written by Steven Douglas Cochran, is the modern
+% replacement for subfigure.sty. However, subfig.sty requires and
+% automatically loads Axel Sommerfeldt's caption.sty which will override
+% IEEEtran.cls handling of captions and this will result in nonIEEE style
+% figure/table captions. To prevent this problem, be sure and preload
+% caption.sty with its "caption=false" package option. This is will preserve
+% IEEEtran.cls handing of captions. Version 1.3 (2005/06/28) and later 
+% (recommended due to many improvements over 1.2) of subfig.sty supports
+% the caption=false option directly:
+%\usepackage[caption=false,font=footnotesize]{subfig}
+%
+% The latest version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/subfig/
+% The latest version and documentation of caption.sty can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/caption/
+
+
+
+
+% *** FLOAT PACKAGES ***
+%
+%\usepackage{fixltx2e}
+% fixltx2e, the successor to the earlier fix2col.sty, was written by
+% Frank Mittelbach and David Carlisle. This package corrects a few problems
+% in the LaTeX2e kernel, the most notable of which is that in current
+% LaTeX2e releases, the ordering of single and double column floats is not
+% guaranteed to be preserved. Thus, an unpatched LaTeX2e can allow a
+% single column figure to be placed prior to an earlier double column
+% figure. The latest version and documentation can be found at:
+% http://www.ctan.org/tex-archive/macros/latex/base/
+
+
+
+%\usepackage{stfloats}
+% stfloats.sty was written by Sigitas Tolusis. This package gives LaTeX2e
+% the ability to do double column floats at the bottom of the page as well
+% as the top. (e.g., "\begin{figure*}[!b]" is not normally possible in
+% LaTeX2e). It also provides a command:
+%\fnbelowfloat
+% to enable the placement of footnotes below bottom floats (the standard
+% LaTeX2e kernel puts them above bottom floats). This is an invasive package
+% which rewrites many portions of the LaTeX2e float routines. It may not work
+% with other packages that modify the LaTeX2e float routines. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/sttools/
+% Documentation is contained in the stfloats.sty comments as well as in the
+% presfull.pdf file. Do not use the stfloats baselinefloat ability as IEEE
+% does not allow \baselineskip to stretch. Authors submitting work to the
+% IEEE should note that IEEE rarely uses double column equations and
+% that authors should try to avoid such use. Do not be tempted to use the
+% cuted.sty or midfloat.sty packages (also by Sigitas Tolusis) as IEEE does
+% not format its papers in such ways.
+
+
+%\ifCLASSOPTIONcaptionsoff
+%  \usepackage[nomarkers]{endfloat}
+% \let\MYoriglatexcaption\caption
+% \renewcommand{\caption}[2][\relax]{\MYoriglatexcaption[#2]{#2}}
+%\fi
+% endfloat.sty was written by James Darrell McCauley and Jeff Goldberg.
+% This package may be useful when used in conjunction with IEEEtran.cls'
+% captionsoff option. Some IEEE journals/societies require that submissions
+% have lists of figures/tables at the end of the paper and that
+% figures/tables without any captions are placed on a page by themselves at
+% the end of the document. If needed, the draftcls IEEEtran class option or
+% \CLASSINPUTbaselinestretch interface can be used to increase the line
+% spacing as well. Be sure and use the nomarkers option of endfloat to
+% prevent endfloat from "marking" where the figures would have been placed
+% in the text. The two hack lines of code above are a slight modification of
+% that suggested by in the endfloat docs (section 8.3.1) to ensure that
+% the full captions always appear in the list of figures/tables - even if
+% the user used the short optional argument of \caption[]{}.
+% IEEE papers do not typically make use of \caption[]'s optional argument,
+% so this should not be an issue. A similar trick can be used to disable
+% captions of packages such as subfig.sty that lack options to turn off
+% the subcaptions:
+% For subfig.sty:
+% \let\MYorigsubfloat\subfloat
+% \renewcommand{\subfloat}[2][\relax]{\MYorigsubfloat[]{#2}}
+% For subfigure.sty:
+% \let\MYorigsubfigure\subfigure
+% \renewcommand{\subfigure}[2][\relax]{\MYorigsubfigure[]{#2}}
+% However, the above trick will not work if both optional arguments of
+% the \subfloat/subfig command are used. Furthermore, there needs to be a
+% description of each subfigure *somewhere* and endfloat does not add
+% subfigure captions to its list of figures. Thus, the best approach is to
+% avoid the use of subfigure captions (many IEEE journals avoid them anyway)
+% and instead reference/explain all the subfigures within the main caption.
+% The latest version of endfloat.sty and its documentation can obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/endfloat/
+%
+% The IEEEtran \ifCLASSOPTIONcaptionsoff conditional can also be used
+% later in the document, say, to conditionally put the References on a 
+% page by themselves.
+
+
+
+
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%
+%\usepackage{url}
+% url.sty was written by Donald Arseneau. It provides better support for
+% handling and breaking URLs. url.sty is already installed on most LaTeX
+% systems. The latest version can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/misc/
+% Read the url.sty source comments for usage information. Basically,
+% \url{my_url_here}.
+
+
+
+
+
+% *** Do not adjust lengths that control margins, column widths, etc. ***
+% *** Do not use packages that alter fonts (such as pslatex).         ***
+% There should be no need to do such things with IEEEtran.cls V1.6 and later.
+% (Unless specifically asked to do so by the journal or conference you plan
+% to submit to, of course. )
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\DeclareMathOperator*{\argmin}{\arg\!\min}
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+
+
+\begin{document}
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+\title{Generalized Thresholding for Efficient Spike Acquisition}
+%
+%
+% author names and IEEE memberships
+% note positions of commas and nonbreaking spaces ( ~ ) LaTeX will not break
+% a structure at a ~ so this keeps an author's name from being broken across
+% two lines.
+% use \thanks{} to gain access to the first footnote area
+% a separate \thanks must be used for each paragraph as LaTeX2e's \thanks
+% was not built to handle multiple paragraphs
+%
+
+%\author{Michael~Shell,~\IEEEmembership{Member,~IEEE,}
+%        John~Doe,~\IEEEmembership{Fellow,~OSA,}
+%        and~Jane~Doe,~\IEEEmembership{Life~Fellow,~IEEE}% <-this % stops a space
+\author{Alex~Wein, ~Lakshminarayan Srinivasan%
+%\thanks{M. Shell is with the Department
+%of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta,
+%GA, 30332 USA e-mail: (see http://www.michaelshell.org/contact.html).}% <-this % stops a space
+%\thanks{J. Doe and J. Doe are with Anonymous University.}% <-this % stops a space
+%\thanks{Manuscript received April 19, 2005; revised January 11, 2007.}}
+
+\thanks{A. Wein is an undergraduate at the California Institute of Technology, Pasadena, CA 91125 USA.}% <-this % stops a space
+\thanks{L. Srinivasan is ...}%
+\thanks{Funding for this work was provided by ...}%
+\thanks{Manuscript received xxxxx; revised xxxxx.}}
+
+% note the % following the last \IEEEmembership and also \thanks - 
+% these prevent an unwanted space from occurring between the last author name
+% and the end of the author line. i.e., if you had this:
+% 
+% \author{....lastname \thanks{...} \thanks{...} }
+%                     ^------------^------------^----Do not want these spaces!
+%
+% a space would be appended to the last name and could cause every name on that
+% line to be shifted left slightly. This is one of those "LaTeX things". For
+% instance, "\textbf{A} \textbf{B}" will typeset as "A B" not "AB". To get
+% "AB" then you have to do: "\textbf{A}\textbf{B}"
+% \thanks is no different in this regard, so shield the last } of each \thanks
+% that ends a line with a % and do not let a space in before the next \thanks.
+% Spaces after \IEEEmembership other than the last one are OK (and needed) as
+% you are supposed to have spaces between the names. For what it is worth,
+% this is a minor point as most people would not even notice if the said evil
+% space somehow managed to creep in.
+
+
+
+% The paper headers
+\markboth{Journal of \LaTeX\ Class Files,~Vol.~6, No.~1, January~2007}%
+{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Journals}
+% The only time the second header will appear is for the odd numbered pages
+% after the title page when using the twoside option.
+% 
+% *** Note that you probably will NOT want to include the author's ***
+% *** name in the headers of peer review papers.                   ***
+% You can use \ifCLASSOPTIONpeerreview for conditional compilation here if
+% you desire.
+
+
+
+
+% If you want to put a publisher's ID mark on the page you can do it like
+% this:
+%\IEEEpubid{0000--0000/00\$00.00~\copyright~2007 IEEE}
+% Remember, if you use this you must call \IEEEpubidadjcol in the second
+% column for its text to clear the IEEEpubid mark.
+
+
+
+% use for special paper notices
+%\IEEEspecialpapernotice{(Invited Paper)}
+
+
+
+
+% make the title area
+\maketitle
+
+
+\begin{abstract}
+%\boldmath
+Abstract
+\end{abstract}
+% IEEEtran.cls defaults to using nonbold math in the Abstract.
+% This preserves the distinction between vectors and scalars. However,
+% if the journal you are submitting to favors bold math in the abstract,
+% then you can use LaTeX's standard command \boldmath at the very start
+% of the abstract to achieve this. Many IEEE journals frown on math
+% in the abstract anyway.
+
+% Note that keywords are not normally used for peerreview papers.
+\begin{IEEEkeywords}
+Finite rate of innovation.
+\end{IEEEkeywords}
+
+
+
+
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+\IEEEpeerreviewmaketitle
+
+
+% SECTION: INTRODUCTION
+\section{Introduction}
+%\IEEEPARstart{T}{his} demo file is intended to serve as a ``starter file''
+
+%\IEEEPARstart{T}{he} Nyquist-Shannon sampling theorem states that an arbitrary band-limited signal can be recovered from uniform samples, provided that the sampling rate exceeds twice the highest frequency present in the signal \cite{nyquist}.
+
+
+% needed in second column of first page if using \IEEEpubid
+%\IEEEpubidadjcol
+
+\section{Methods}
+
+\subsection{Analog Thresholding (AT)}
+
+[describe and cite previous methods, refer to fig 1a]
+
+\subsection{FRI}
+
+Vetterli [cite] introduced the concept of signals with finite rate of innovation (FRI). In particular, signals of the following form, the sum of shifted and scaled Dirac delta functions, were considered.
+
+\begin{equation}
+x(t) = \sum_{k=1}^K c_k \delta(t - t_k)
+\end{equation}
+
+Here, $\delta$ is the Direc delta function. Kusuma [cite] proposed sampling this type of signal by successive integration as follows.
+
+\begin{equation}
+x_1(t) = \int_0^t x(\tau) d\tau
+\end{equation}
+
+\begin{equation}
+x_{\ell+1}(t) = \int_0^t x_{\ell}(\tau) d\tau \hspace{30pt} \ell = 1, 2, \ldots L-1
+\end{equation}
+
+\begin{equation}
+y_\ell = x_\ell(T) \hspace{30pt} \ell = 1, 2, \ldots L
+\end{equation}
+
+$L$ samples $y_1, y_2, \ldots, y_L$ are extracted from $x(t)$ as shown above. As shown in [cite], the parameters $t_k$ and $c_k$ (for all $1 \le k \le K$) can be reconstructed from the samples, provided that $L \ge 2K+1$.
+
+In this paper we consider the same sampling scheme, but a different signal with finite rate of innovation: a stream of square waves with uniform height and variable width.
+
+\subsection{Generalized Analog Thresholding (gAT)}
+
+Figure \ref{fig:cartoon} illustrates the difference between conventional analog thresholding (AT) and our proposed approach, generalized analog thresholding (gAT). Both methods start with a raw neural signal, partitioned into blocks of duration $T$. Both methods have the same goal, which is to decide whether a spike occurred in each block, and if so, to report the time at which it occurred. This signal is bandpass filtered to remove local field potentials. A threshold $\delta$ is chosen, below the amplitude of a typical spike but above the amplitude of typical noise. At this point the two methods begin to differ.
+
+Analog thresholding (AT) applies a latched comparator with threshold $\delta$. Whenever the signal exceeds $\delta$, the comparator latches high. At the end of each block, the output of the comparator is sampled and the comparator is reset. This yields a binary value indicating the presence of a spike in this block. For the sake of comparison with gAT, we need AT to report a precise spike time within the block. We chose the midpoint of the block. This can be considered an MMSE (minimum mean squared error) estimate because, provided that the true spike time is equally likely to be at each point in the block, the midpoint minimizes the mean squared error between the true and reported spike time.
+
+Generalized analog threshold (gAT) differs from AT as follows. Instead of applying a latched comparator it simply applies a comparator. This comparator outputs a continuous binary signal that indicates whether the neural waveform exceeds $\delta$ at each instant in time. Assume for simplicity that we are dealing with the block $[0,T]$. To analyze this block, the first and second integrals of the comparator output in the block are calculated. If the comparator output in the block is given by the function $x(t)$ on the domain $[0,T]$, the first and second integrals $y_1$ and $y_2$ are given by the following.
+
+\begin{equation}
+x_1(t) = \int_0^t x(\tau) d\tau
+\end{equation}
+
+\begin{equation}
+x_2(t) = \int_0^t x_1(\tau) d\tau
+\end{equation}
+
+\begin{equation}
+y_1 = x_1(T)
+\end{equation}
+
+\begin{equation}
+y_2 = x_2(T)
+\end{equation}
+
+If $y_1 = 0$ then gAT concludes that there is no spike in the block. Otherwise, a spike is reported at time
+
+\begin{equation}
+t = T - y_2/y_1
+\end{equation}
+
+See the Appendix for the derivation. Note that this gives gAT super-resolution, meaning the ability to pinpoint the time of a spike on scales smaller than $T$.
+
+\section{Results}
+
+We ran a number of simulations to compare the performance of AT and gAT. Although the methods themselves were simulated on a computer rather than implemented in analog, we used real neural data recorded from the primary motor cortex of monkeys. [how many monkeys, how many channels, how many neurons] The data included ground truth spike times that were obtained using [exact description]. These are what we will refer to as the true spike times.
+
+In Figure \ref{fig:superres} we tested the ability of gAT to provide super-resolution of spike times on scales smaller than $T$. The metric of interest is simply unsigned error in spike time, \mbox{$|t_{true} - t_{reconstruted}|$} where $t_{true}$ and $t_{reconstructed}$ are the true and reconstructed spike times in a block. Note that this metric can only be computed for blocks that have exactly one true spike and exactly one reconstructed spike. We will refer to these types of blocks as ``valid'' blocks. Given a method (AT or gAT), channel, and sampling period $T$, we computed the average spike time error by averaging the unsigned error in spike time over all valid blocks in 1 minute of data. In Figure \ref{fig:superres} panels (a) and (c) we see that when AT is used, average spike time error increases in proportion to $T$, whereas when gAT is used, average spike time error remains relatively flat. This confirms the ability of gAT to provide super-resolution of spike times.
+
+The theoretical curve for AT, shown in black, is the line $y = T/4$ (where $y$ is the y-axis value and $T$ is the x-axis value). To calculate this, first note that for the block $[0,T]$, the AT reconstruction spike time is always $t_{reconstructed} = T/2$. Then assume that the true spike time $t_{true}$ follows a uniform distribution on $[0,T]$. The expected value of \mbox{$|t_{true} - t_{reconstruted}|$} is $T/4$. For large values of $T$, the AT curve drops slightly below the theoretical AT curve. To explain this, recall that average spike time error can only be computed using ``valid'' blocks, those with exactly one true spike and one reconstructed spike. When $T$ becomes large, the probability of having multiple true spikes in a block becomes significant. As a result, given that a block is valid, the true spike is likely to be near the center of the block. To understand why this is, consider for example the extreme case where the true spikes are spaced apart by exactly $T/2 + \varepsilon$, for some small $\varepsilon > 0$. The only way there can be a valid block is if it is centered on a real spike.
+
+The fact that panels (a) and (c) of Figure \ref{fig:superres} use only valid blocks is potentially worrying. If only a few blocks were valid, the results of these analyses would be misleading. Panels (b) and (d) show that this is not the case. Recall that a valid block is a block with exactly one true spike and exactly one reconstructed spike. Define an ``active'' block to be a block with one or more true spikes. Define the fraction of valid blocks as follows.
+
+\begin{equation}
+\label{eq:valid}
+\mathrm{Fraction\,\,of\,\,Valid\,\,Blocks} = \frac{\mathrm{\#\,\,Valid\,\,Blocks}}{\mathrm{\#\,\,Active\,\,Blocks}}
+\end{equation}
+
+The active blocks are those with true spiking activity, so they are the blocks that we would ideally include in the analysis. The valid blocks are those that were actually included in the analysis, so the fraction of valid blocks is a measure of how much of the data was used for the analysis. We see that the fraction of valid blocks is generally above $0.5$. As a result, the results in panels (a) and (c) represent most of the data. However, there is still a significant number of blocks that needed to be thrown out. Next we consider a different error metric that takes all blocks into account in order to asset overall performace.
+
+In the analysis detailed in Figure \ref{fig:ROC}, instead of comparing true and reconstructed spikes on a block-by-block basis, we compared a 1-minute-long spike train of true spikes with the corresponding spike train of reconstructed spikes. One issue that arises in this setting is the possibility that a true spike intersects the boundary between two blocks, thus triggering threshold crossings in both adjacent blocks creating two reconstructed spikes. To solve this problem, we chose to enforce a mandatory refractory period $\Delta = 1.1\,ms$ in the reconstructed spike train. Any reconstructed spike whose spike time exceeds that of the previous reconstructed spike by less than $\Delta$ is thrown out.
+
+After imposing a refractory period, we compared the two spike trains by compuing the number of false positives and false negatives. We chose an error tolerance value $\tau = 5\,ms$ and paired up reconstructed spikes with true spikes that were no more than $\tau$ away. The true spikes that could not be paired up in this manner are considered false negatives and the reconstructed spikes that could not be paired up are considered false positives.
+
+Given a true and reconstructed spike train, there is a tradeoff between false positives and false negatives that is controlled by the spike detection threshold $\delta$. Increasing $\delta$ lowers the number of false positives but increases the number of false negatives. In panels (a) and (b) of Figure \ref{fig:ROC} we see that gAT gives a more favorate tradeoff than AT. We also wanted a way to assign a single error value to a pair of spike trains (one true and one reconstructed) rather than an entire tradeoff curve. We did this by computing the number of error (false positives plus false negatives) at the point on the tradeoff curve at which the number of errors is minimized. In panels (c) and (d) we see that gAT offers lower error values than AT for large values of $T$. The two methods have similar performance when $T$ is small, as should be expected.
+
+Next we explore potential applications of gAT. There are various application areas in which detecting spikes in an analog signal is essential. These benefit from the super-resolution provided by gAT to various extents. For some applications, pinpointing exact spike times are critical, whereas for others, approximate spike time is just as good. The benefits of gAT are most advantageous in applications in which exact spike times are critical.
+
+First we consider an analysis of LFP (local field potential) phase locking. For some neurons, spikes are most likely to occur during particular phase of LFP oscillation. Given spike times and LFP data we can perform the following analysis to detect this phase locking behavior. For each spike we calculate the phase of the 20-30 Hz oscillation in the LFP at the instant in time at which the spike occurred. We can then plot the distribution of these phase values, and calculate the preferred phase. Figure \ref{fig:LFP}(a) shows an example of this plot for a particular neuron using 3 methods: true spikes, AT, and gAT. Since phase locking is strongest at high amplitude LFP, we threw out spikes that occurred when the LFP amplitude was below some threshold. This threshold was chosen to be the median of the LFP amplitude values at the true spike times. As a result, half of the true spikes were thown out. Approximately half of the spikes were thrown out in each of the other methods, AT and gAT.
+
+Figure \ref{fig:LFP}(b) investigates how the error in preferred direction changes as a function of the sampling period $T$ using each of the methods AT and gAT. Error in preferred direction is defined as the absolute difference between the preferred direction of the true spikes and the preferred direction of the reconstructed spikes. We see that with gAT, the error in preferred direction remains flat as $T$ increases, whereas with AT, the error increases with $T$. Figure \ref{fig:LFP}(c) investigates how the shape of the phase distribution shown in (a) changes as a function of $T$. The error metric used is the average (over all phase values) of the absoulute difference between the phase distribution calculated using the true spikes and the phase distribution calculated using the reconstructed spikes. Once again we see smaller error with gAT than with AT.
+
+As a result of the analysis shown in Figure \ref{fig:LFP} we can conclude that gAT outperforms AT in fidelity of phase locking analysis. We now investigate an application in which gAT does not provide a significant advantage over AT. We used the same data from monkey primary motor cortex but incorporated knowledge of the monkey's arm velocity at the time of spiking activity. The monkey's arm movements were tracked simulateously with neural data. Many neurons are tuned to this arm movement, meaning they have a preferred direction and fire most frequently when the monkey's arm is moving in a direction similar to this preferred direction. Figure \ref{fig:tuning} details this analysis. We see that both methods, AT and gAT, give nearly identical performance. Although this analysis is similar to the phase locking analysis shown earlier, there is an important distinction. The phase of 20-30 Hz LFP oscillations changes much more quickly than monkey arm velocity. As a result, precise spike time is critical for the LFP analysis but unnecessary for the tuning curve analysis.
+
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{eps/fig1_final}
+\caption{{\bf Comparison of analog thresholding (AT) and generalized analog thresholding (gAT).} Both methods process the data in blocks of length $T$, reconstructing either 0 or 1 spikes in each block. Furthermore, both methods report the existence of a spike in a block if and only if the signal crosses an appropriately-chosen threshold $\delta$ somewhere in that block. Analog thresholding (AT) provides no information about which part of the block contains the spike, so the spike is simply reported to be in the center of the interval. Generalized analog thresholding (gAT) is able to pinpoint the location of a spike within a block. Note that both methods break down when two or more true spikes (threshold crossings) occur in one block.}
+\label{fig:cartoon}
+\end{figure}
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{eps/fig2_new}
+\caption{{\bf Super-resolution spike-time recovery with gAT.} {\bf(a)} Average unsigned spike-time reconstruction error of the two methods as a function of the sampling period $T$, with a curve for each of the 10 channels. Average spike time error was computed using all blocks that contain exactly 1 true spike and 1 reconstructed spike. This is because spike-time error is only easily-defined for such blocks. The theoretical curve $y = T/4$ for AT is included. {\bf (b)} Fraction of valid blocks as a function of sampling period $T$, with a curve for each of the 10 channels. The fraction of valid blocks is defined by (\ref{eq:valid}). These values represent how much of the data was useable for computing the values in (a). {\bf (c)} Same data as in (a) but aggregated over all channels. The mean of all 10 channels is shown, along with 95\% bootstrap confidence intervals on the mean. {\bf (d)} Same data as (b) but aggregated over all channels, showing mean and 95\% bootstrap confidence interval on the mean.}
+\label{fig:superres}
+\end{figure}
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{eps/fig3}
+\caption{{\bf gAT improves spike detection accuracy over AT.} {\bf (a)} Each curve shows the tradeoff between false positive and false negatives (reported as a fraction of true spikes) for a different channel, calculated using all the blocks in 1 minute of data. Different points on a single curve were obtained by changing the value of the spike detection threshold $\delta$. Increasing $\delta$ lowers the number of false positives but increases the number of false negatives. The sampling period $T = 15\,ms$, error tolerance $\tau = 5\,ms$, and refractory period $\Delta = 1.1\,ms$ were held constant throughout. The large dark data point on each curve shows the optimal operating point, the point with the fewest number of total errors (false positives plus false negatives). {\bf (b)} The analysis in (a) was performed for various values of $T$. The number of errors per true spike was calculated at the optimal operating point for the particular channel and method in question. Each curve corresponds to a particular channel. Data for all 10 channels is shown. {\bf (c)} Same data as (a) but showing only 3 representative channels: the best, worst, and median. {\bf (d)} Same data as (b) but aggregated over all channels, showing mean and 95\% bootstrap confidence interval on the mean.}
+\label{fig:ROC}
+\end{figure}
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{eps/fig4_final}
+\caption{{\bf gAT outperforms AT in LFP phase locking analysis.} {\bf (a)} A single-channel example showing phase locking using 3 methods: true spikes, AT, and gAT. Only spikes occurring during high amplitude LFP (above the median of LFP amplitude values at true spike times) were considered. The parameters $T = 30\,ms$ and $\Delta = 1.1\,ms$ were used. The distribution of spikes over various phases of the oscillation of 20-30 Hz LFP is shown for each method. The relative risk of spiking, shown on the y-axis, is the firing rate divided by the average spiking rate. {\bf (b)} The data from (a) is now fit to a generalized linear model $\lambda(\theta) = e^{b_0 + v_1 b_1 + v_2 b_2}$. Here $\theta$ is the phase, $\lambda(\theta)$ is the firing rate, and $(v_1, v_2)$ is a unit vector with angle $\theta$. The parameters $b_0$, $b_1$, and $b_2$ are calculated from the data. The underlying firing rate is $e^{b_0}$ and the preferred phase is the angle of the vector $(b_1, b_2)$. The relative risk of spiking is the firing rate $\lambda(\theta)$ divided by the baseline firing rate $e^{b_0}$. Circles are used to mark preferred phase. {\bf (c)} Investigation of how the shape of the phase distribution shown in (a) changes as a function of $T$ for both methods AT and gAT. Average distribution error is defined to be the average (over all phase values) of the difference between the true distribution curve and the reconstructed distribution curve, both of which are shown in (a). Data is aggregated over all channels, showing mean and 95\% bootstrap confidence intervals. {\bf (d)} Error in preferred phase is shown as a function of $T$ for both methods AT and gAT. Error in preferred phase is defined to be the absolute difference between preferred phase of true spikes and preferred phase of reconstructed spikes. Data is aggregated over all channels, showing mean and 95\% bootstrap confidence intervals.}
+\label{fig:LFP}
+\end{figure}
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{eps/fig5_new}
+\caption{{\bf Tuning curves are insensitive to spike time errors.} {\bf (a)} An example of tuning curves for a particular neuron. {\bf (b)} Tuning curves fit to the generalized linear model $\lambda(v_1, v_2) = e^{b_0 + v_1 b_1 + v_2 b_2}$. Here $(v_1 v_2)$ is the 2-dimentional vector describing the monkey's arm velocity and $\lambda$ is the firing rate. The parameters $b_0$, $b_1$, and $b_2$ are calculated from the data. Circles show preferred directions. Given an angle $\theta$, the average firing rate is $\lambda(v_{\theta 1}, v_{\theta 2})$ where $(v_{\theta 1}, v_{\theta 2})$ is a vector whose angle is $\theta$ and whose magnitude is the monkey's average arm speed. {\bf (c)} Preferred direction error as a function of $T$ for both AT and gAT. Preferred direction error is defined to be the absolute difference between the preferred direction of true spikes and the preferred direction of reconstructed spikes. Data is aggregated over all channels, showing mean and 95\% bootstrap confidence intervals.}
+\label{fig:tuning}
+\end{figure}
+
+% An example of a floating figure using the graphicx package.
+% Note that \label must occur AFTER (or within) \caption.
+% For figures, \caption should occur after the \includegraphics.
+% Note that IEEEtran v1.7 and later has special internal code that
+% is designed to preserve the operation of \label within \caption
+% even when the captionsoff option is in effect. However, because
+% of issues like this, it may be the safest practice to put all your
+% \label just after \caption rather than within \caption{}.
+%
+% Reminder: the "draftcls" or "draftclsnofoot", not "draft", class
+% option should be used if it is desired that the figures are to be
+% displayed while in draft mode.
+%
+%\begin{figure}[!t]
+%\centering
+%\includegraphics[width=2.5in]{myfigure}
+% where an .eps filename suffix will be assumed under latex, 
+% and a .pdf suffix will be assumed for pdflatex; or what has been declared
+% via \DeclareGraphicsExtensions.
+%\caption{Simulation Results}
+%\label{fig_sim}
+%\end{figure}
+
+% Note that IEEE typically puts floats only at the top, even when this
+% results in a large percentage of a column being occupied by floats.
+
+
+% An example of a double column floating figure using two subfigures.
+% (The subfig.sty package must be loaded for this to work.)
+% The subfigure \label commands are set within each subfloat command, the
+% \label for the overall figure must come after \caption.
+% \hfil must be used as a separator to get equal spacing.
+% The subfigure.sty package works much the same way, except \subfigure is
+% used instead of \subfloat.
+%
+%\begin{figure*}[!t]
+%\centerline{\subfloat[Case I]\includegraphics[width=2.5in]{subfigcase1}%
+%\label{fig_first_case}}
+%\hfil
+%\subfloat[Case II]{\includegraphics[width=2.5in]{subfigcase2}%
+%\label{fig_second_case}}}
+%\caption{Simulation results}
+%\label{fig_sim}
+%\end{figure*}
+%
+% Note that often IEEE papers with subfigures do not employ subfigure
+% captions (using the optional argument to \subfloat), but instead will
+% reference/describe all of them (a), (b), etc., within the main caption.
+
+
+% An example of a floating table. Note that, for IEEE style tables, the 
+% \caption command should come BEFORE the table. Table text will default to
+% \footnotesize as IEEE normally uses this smaller font for tables.
+% The \label must come after \caption as always.
+%
+%\begin{table}[!t]
+%% increase table row spacing, adjust to taste
+%\renewcommand{\arraystretch}{1.3}
+% if using array.sty, it might be a good idea to tweak the value of
+% \extrarowheight as needed to properly center the text within the cells
+%\caption{An Example of a Table}
+%\label{table_example}
+%\centering
+%% Some packages, such as MDW tools, offer better commands for making tables
+%% than the plain LaTeX2e tabular which is used here.
+%\begin{tabular}{|c||c|}
+%\hline
+%One & Two\\
+%\hline
+%Three & Four\\
+%\hline
+%\end{tabular}
+%\end{table}
+
+
+% Note that IEEE does not put floats in the very first column - or typically
+% anywhere on the first page for that matter. Also, in-text middle ("here")
+% positioning is not used. Most IEEE journals use top floats exclusively.
+% Note that, LaTeX2e, unlike IEEE journals, places footnotes above bottom
+% floats. This can be corrected via the \fnbelowfloat command of the
+% stfloats package.
+
+
+
+
+% if have a single appendix:
+%\appendix[Proof of the Zonklar Equations]
+% or
+%\appendix  % for no appendix heading
+% do not use \section anymore after \appendix, only \section*
+% is possibly needed
+
+% use appendices with more than one appendix
+% then use \section to start each appendix
+% you must declare a \section before using any
+% \subsection or using \label (\appendices by itself
+% starts a section numbered zero.)
+%
+\appendix[Derivation of $gAT$ Reconstruction]
+
+\indent\indent Assume that in the interval $[0,T]$ we have either 0 or 1 spikes. A spike manifests itself in the comparator output $x(t)$ as a square wave centered at $t_1$ with width $w_1$ and height 1. We want to detect whether there is a spike and, if there is one, find its parameters $t_1$ and $w_1$. If there is a spike, the comparator output is given by the signal\\
+
+\begin{equation}
+x(t) = \left\{
+\begin{array}{l l}
+  1 & \mathrm{if}\,\,\, t_1-\frac{w_1}{2} \le t \le t_1+\frac{w_1}{2}\\
+  0 & \mathrm{otherwise}\\
+\end{array}
+\right.
+\end{equation}
+
+Assume the spike is contained completely within the interval, i.e. $0 \le t_1 - \frac{w_1}{2}$ and $t_1+\frac{w_1}{2} \le T$. Take the first and second integrals $x_1(t)$ and $x_2(t)$ of this signal.\\
+
+$\displaystyle x_1(t) \equiv \int_0^t x(\tau) d\tau $\\
+\begin{equation}
+= \left\{
+\begin{array}{l l}
+  0 & \mathrm{if}\,\,\, t < t_1 - \frac{w_1}{2}\\
+  t - (t_1-\frac{w_1}{2}) & \mathrm{if}\,\,\, t_1-\frac{w_1}{2} \le t \le t_1+\frac{w_1}{2}\\
+  w_1 & \mathrm{if}\,\,\, t > t_1 + \frac{w_1}{2}\\
+\end{array}
+\right.
+\end{equation}
+
+$\displaystyle x_2(t) \equiv \int_0^t x_1(\tau) d\tau$\\
+\begin{equation}
+= \left\{
+\begin{array}{l l}
+  0 & \mathrm{if}\,\,\, t < t_1 - \frac{w_1}{2}\\
+  \frac{1}{2}[t - (t_1-\frac{w_1}{2})]^2 & \mathrm{if}\,\,\, t_1-\frac{w_1}{2} \le t \le t_1+\frac{w_1}{2}\\
+  \frac{1}{2}w_1^2 + w[t - (t_1+\frac{w_1}{2})] & \mathrm{if}\,\,\, t > t_1 + \frac{w_1}{2}\\
+\end{array}
+\right.
+\end{equation}
+
+\noindent Sample $x_1(t)$ and $x_2(t)$ at $t = T$.\\
+
+$y_1 \equiv x_1(T) = w_1$\\
+
+$y_2 \equiv x_2(T) = \frac{1}{2}w_1^2 + w_1[T - (t_1+\frac{w_1}{2})] = w_1(T-t_1)$\\
+
+\noindent We can therefore recover the parameters $t_1$ and $w_1$ of the spike as follows.\\
+
+$w_1 = y_1$\\
+
+$t_1 = T - \frac{y_2}{y_1}$\\
+
+Having 0 spikes in the interval is equivalent to having 1 spike with width $w_1 = 0$. Therefore, report 0 spikes in the interval if $w_1 = 0$ (i.e. $y_1 = 0$). Otherwise, report 1 spike in the interval with parameters $t_1$ and $w_1$ as calculated above.
+
+
+
+% use section* for acknowledgement
+\section*{Acknowledgment}
+
+The authors would like to thank...
+
+
+% Can use something like this to put references on a page
+% by themselves when using endfloat and the captionsoff option.
+\ifCLASSOPTIONcaptionsoff
+  \newpage
+\fi
+
+
+
+% trigger a \newpage just before the given reference
+% number - used to balance the columns on the last page
+% adjust value as needed - may need to be readjusted if
+% the document is modified later
+%\IEEEtriggeratref{8}
+% The "triggered" command can be changed if desired:
+%\IEEEtriggercmd{\enlargethispage{-5in}}
+
+% references section
+
+% can use a bibliography generated by BibTeX as a .bbl file
+% BibTeX documentation can be easily obtained at:
+% http://www.ctan.org/tex-archive/biblio/bibtex/contrib/doc/
+% The IEEEtran BibTeX style support page is at:
+% http://www.michaelshell.org/tex/ieeetran/bibtex/
+%\bibliographystyle{IEEEtran}
+% argument is your BibTeX string definitions and bibliography database(s)
+%\bibliography{IEEEabrv,../bib/paper}
+%
+% <OR> manually copy in the resultant .bbl file
+% set second argument of \begin to the number of references
+% (used to reserve space for the reference number labels box)
+%\begin{thebibliography}{12}
+
+% BIBLIOGRAPHY HERE
+
+%\end{thebibliography}
+
+% biography section
+% 
+% If you have an EPS/PDF photo (graphicx package needed) extra braces are
+% needed around the contents of the optional argument to biography to prevent
+% the LaTeX parser from getting confused when it sees the complicated
+% \includegraphics command within an optional argument. (You could create
+% your own custom macro containing the \includegraphics command to make things
+% simpler here.)
+%\begin{biography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mshell}}]{Michael Shell}
+% or if you just want to reserve a space for a photo:
+
+\begin{IEEEbiography}{Alex Wein}
+is an undergraduate at the California Institute of Technology (Caltech). He is expected to graduate in 2013 with a B.S. in Computer Science and Mathematics.
+\end{IEEEbiography}
+
+\begin{IEEEbiography}{Lakshminarayan Srinivasan}
+Biography text here.
+\end{IEEEbiography}
+
+% if you will not have a photo at all:
+%\begin{IEEEbiographynophoto}{Lakshminarayan Srinivasan}
+%Biography text here.
+%\end{IEEEbiographynophoto}
+
+% insert where needed to balance the two columns on the last page with
+% biographies
+%\newpage
+
+%\begin{IEEEbiographynophoto}{Jane Doe}
+%Biography text here.
+%\end{IEEEbiographynophoto}
+
+% You can push biographies down or up by placing
+% a \vfill before or after them. The appropriate
+% use of \vfill depends on what kind of text is
+% on the last page and whether or not the columns
+% are being equalized.
+
+%\vfill
+
+% Can be used to pull up biographies so that the bottom of the last one
+% is flush with the other column.
+%\enlargethispage{-5in}
+
+
+
+% that's all folks
+\end{document}
+
+

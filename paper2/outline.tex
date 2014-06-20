@@ -1,0 +1,210 @@
+\documentclass[]{article}
+
+\usepackage{geometry}
+\usepackage{enumerate}
+
+\begin{document}
+\begin{abstract}
+\begin{itemize}
+\item Abstract
+\begin{itemize}
+\item Goal: sample from human brain with high density of electrodes
+\item Need to find number of spikes and spike times
+\item Current methods need to sample at about 20 KHZ (?): power and data bandwidth are too high
+\item present method that only requires sampling at 10 - 30 Hz (?)
+\end{itemize}
+\end{itemize}
+\end{abstract}
+
+\section{Introduction}
+\begin{itemize}
+\item Motivation (Figure 1a (plot of battery life))
+\begin{itemize}
+\item Nyquist sampling of neural signals requires 5 - 30 KHz
+\item Want to be able to place electrodes on brain with high density
+\item Resulting energy / transmission needs are too high
+\item Need to be able to sample slower
+\end{itemize}
+\item Reconstructing signals with finite rate of innovation
+\item Analog Thresholding
+\item 3 Failure Modes of AT
+\begin{itemize}
+\item Spike time resolution
+\item Missed multiple spike
+\item Loss of spike shape
+\end{itemize}
+\item gAT addresses first two failure modes
+\end{itemize}
+
+\section{Methods}
+
+\begin{itemize}
+\item gAT (might want to not explain 1, 2-spike independently and just list as special cases?) (figure 2)
+\begin{itemize}
+\item one-spike
+\item two-spike
+\item general
+\begin{itemize}
+\item TODO: how are the analog thresholds computed?
+\item compute successive integrals (explain circuitry?)
+\item Predict with as one spike initially
+\item Increase the number of spikes if unable to predict next succesive integral correctly
+\item reconstruction can be done remotely
+\end{itemize}
+\end{itemize}
+\end{itemize}
+
+\section{Results}
+
+\begin{itemize}
+\item able to determine spike times (figure 2, sort of)
+\item able to determine number of spikes (figure 3)
+\item Monkey simulations
+\begin{itemize}
+\item Tuning curve (figure 5a)
+\item phase and distribution error (figure 5b)
+\item LFP
+\item error in preferred direction (figure 6a)
+\end{itemize}
+\item ``Saturation effect'' (figure 6bc)
+\end{itemize}
+
+\section*{Figures}
+
+\begin{enumerate}
+\item
+\begin{enumerate}[(a)]
+\item Battery life over time given density of electrodes (where was the original data?)
+% Bandwidth?
+% Chandrakesan MIT (microwatts per second for sampling rate for existing DSP)
+% Reed Harrison (AT hardware) (IEEE Paper)
+% Applications of analog threshold
+% Where introduced
+% AT recently adopted (common use in offline analysis for spike detection)
+% Plexon - company that makes hardware + offline software for neural
+% AT widely used offline + online spike detection
+% More recently RH implemented AT for efficient sampling of spikes
+% spike times are registered digitally when amplitude of spike passes threshold
+% RH check output of comparator at 1000 Hz
+% AT drops from Nyquist sampling to sampling output of comparator at 1 KHz
+
+% Conventional AT:
+% Benefit:
+%  - reduce sample rate
+%  - simple to implement
+%  - sampling rate approaches rate of innovation
+% 
+
+% conventionally thought nyquist rate was fundamental limit
+% compressive sensing wants sub-nyquist sampling methods
+% nyquist required for arbitrary band-limited signal
+% neural signals are parameterized
+% spikes are similar; vary in amplitude and time
+
+% Kusuma Ultra-wideband
+% Reconstruct shape and time of pulse
+% Shape of pulse for a given neuron is relatively constant
+% http://news.brown.edu/pressreleases/2013/02/wireless power consumption
+% MIT Compressive sensing - power consumption
+% IEEE Spectrum compressive sensing review
+% Model-based compressive sensing (Rice)
+
+% Juwan Yoo (Emami)
+% Strong fix conditions
+% RIP properties (compressive sensing)
+% on-board: sample and reconstruction
+% telemetry: send signals with transmitter (transmission of signal to off-board computer)
+% apply to both on/off-board
+% don't just say trying to reduce bandwith
+%    ++channels -> more data for transmission and downstream processing
+% power consumption
+%   sample
+%   processing
+%   transmission
+% pacemaker: example where processing is on board
+% AICD: electrocardiogram sampled + processed on board
+
+% Spike acquisition systems take both approaches
+% on-board: hermes B (on board) (Stanford hardware) Hermes C (wireless component)
+% FETZ: UW Seattle
+% both classes of methods benefit from decrease in sampling rate / efficient sampling
+% on-board with decreased sampling rate reduces data that needs to be processed
+% telemetry needs to send less data
+
+% Very low-sampling rate allows hardware to be shut down
+% Can reduce duty-cycle of on-board / transmission
+% Alternatively can send large data with same power (same amount of neural information)
+
+% Real time reconstruction of signals
+% Brain-Machine Interface
+% Seizure detection
+% closed-loop brain-machine interface
+%  seizure management
+%  stroke rehabilitation
+%  treatment of movement disorders
+%  prosthetic
+%  mood disorder (PTSD)
+%  motor disorder (parkinsons)
+%  epilepsy
+
+% Growing interest in solving problems with brain function that require real-time reconstruction of neural spikes.
+% People are trying to do whole brain recording for these problems.
+% Dense electrode arrays
+% retinal ganglia cells recorded (Neuron neurotechnique) salamander retina 
+% real-time basic science and clinical applications with whole brain recording require methods to be developed
+% 8 microwatts to survive for 10 years on 1 battery (chandrakesan MIT)
+% Hardware complexity
+% Real-time operation of algorithm
+% On-board and transmission bandwidth
+
+% Near end of intro: paper describes new sampling methods and application to the recording of spiking neural data
+% methods generalizes AT to allow for super-resolution sampling and multiplicity of spikes
+% sampling method based on concepts in finite rate of innovation theory
+% show that certain features of neural activity can be reliably estimated at sampling rates of 20 Hz
+% paper explores regimes of neural signal processing where super-res and multiplicity are important
+% Keeps simplicity and real-time; allows super-res and multiplicity
+
+% Neuron Neurotechnique
+% Nature Neuroscience: techniques
+% Collect key articles for review of FRI and compressive sensing
+
+% andrew richardson (journal of neurophysiology)
+
+\item electrodes in brain + sample of spiking
+\item zoom in of a spike
+\end{enumerate}
+\item diagram of AT, gAT-1, gAT-2
+\item
+\begin{enumerate}[(a)]
+\item Fraction of Intervals with n Spikes
+\item Aggregate Fraction of Valid Intervals
+\item Pairwise difference of fraction of valid intervals
+\item ROC 15 ms
+\item ROC 50 ms
+\item ROC 100 ms
+\end{enumerate}
+\item
+\begin{enumerate}
+\item Tuning 15 ms
+\item Tuning 50 ms
+\item Tuning 100 ms
+\end{enumerate}
+\item
+\begin{enumerate}
+\item Phase error
+\item Distribution error
+\end{enumerate}
+\item
+\begin{enumerate}
+\item error in preferred direction (Move to figure 5c?)
+\item LFP (Saturation Effect 1)
+\item LFP (Saturation Effect 2)
+\end{enumerate}
+\end{enumerate}
+
+\section*{Miscellaneous}
+\begin{itemize}
+\item What is a real spike?
+\end{itemize}
+
+\end{document}

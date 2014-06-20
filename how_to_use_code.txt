@@ -1,0 +1,32 @@
+Awful MATLAB data is in final/data
+
+Possible things to do:
+- implement new methods with 2 spikes per interval
+
+Figures saved to: Desktop/paper2plots/final
+Then use CorelDraw
+
+FIG 2
+Desktop/final/paper2/fig3.m
+
+FIG 3
+Desktop/final/paper2/fig2.m
+
+FIG 4
+Desktop/LFP/fig4a.m -- makes (a) and (b)
+Desktop/LFP/fig4.m -- makes (c) and (d)
+
+FIG 5
+Desktop/final/paper2/fig5.m -- makes (a) and (b)
+Desktop/final/paper2/prefdir_vs_T -- makes (c)
+
+L = # samples
+K = # spikes
+T = interval length
+
+--- code for running things on all data
+
+final/config/uni_params -- specifies parameters for all methods
+final/sampling/generic -- code for taking samples
+final/reconstruct/generic -- code for reconstructing spikes from samples
+final/reconstruct/reconstruct_and_save -- runs reconstruction on data
